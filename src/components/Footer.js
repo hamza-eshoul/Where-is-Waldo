@@ -10,7 +10,7 @@ const footer = () => {
       <div className="flex items-center justify-center gap-2">
         <AiFillGithub className="text-2xl hover:text-red-400" />
         <a
-          href="https://github.com/skynter/Photo-Tagging-App"
+          href="https://github.com/hamza-eshoul/Where-is-Waldo"
           target={"_blank"}
           className="text-red-500"
         >

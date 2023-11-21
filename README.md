@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+## Photo Tagging Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![fr](https://img.shields.io/badge/lang-fr-blue)](README.fr.md)
 
-## Available Scripts
+This is the repository for the Full Stack Photo Tagging Application built for the [Odin Project](https://www.theodinproject.com/lessons/nodejs-where-s-waldo-a-photo-tagging-app).
 
-In the project directory, you can run:
+The application is an interactive version of 'Where's Waldo?', a game where players have to exactly locate several characters inside a picture.
 
-### `npm start`
+The goal of the project was to practice the backend and server-side workflow by using the backend as a service platform Firebase.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Project's Live Preview url - https://photo-tagging-app-ad275.web.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Homepage
 
-### `npm test`
+![Homepage Screenshot](/screenshots/Homepage.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Game Interface
 
-### `npm run build`
+![Game Interface Screenshot](/screenshots//Game-interface.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Game Feedback
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Game Feedback Screenshot](/screenshots/Game-feedback.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- Cloud Firestore
+- ReactJS
+- Tailwind CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Key features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Coordinates recognition and validation system
+- Realtime feedback to users interactions
+- Intuitive User Interface
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the project locally :
 
-## Learn More
+- Fork and clone the repo on your local machine
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Run the following command to install the project's dependecies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install
+```
 
-### Code Splitting
+- Run the following command to spin up a local development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm start
+```
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Open http://localhost:3000 with your browser to access a local version of the application
